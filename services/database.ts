@@ -11,6 +11,4 @@ const sequelize = new Sequelize({
   },
 });
 
-console.log(process.cwd() + '/models/**/*.model.js')
-
 export default sequelize;
